@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1c1c;
+  color: white;
+}
+
+header {
+  background-color: #8b0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a.active {
+  opacity: 0.6;
+}
+
+.car-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.car-card {
+  border: 2px solid #8b0000;
+  text-align: center;
+  width: 220px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #2a2a2a;
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+}
+
+.car-card h3 {
+  margin: 15px 0 10px;
+}
+
+.car-card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.car-card button {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1e1c1c;
+  border-top: 2px solid #8b0000;
+  padding: 30px 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.social-icons img {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.app-buttons img {
+  width: 120px;
+  margin-top: 10px;
+  display: block;
+}
+
+.footer-links h4,
+.newsletter h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.newsletter input {
+  padding: 8px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.newsletter button {
+  display: block;
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 8px 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.rent-btn {
+  background-color: #b22222;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none; 
+  display: inline-block;  
+  margin-top: 10px;
+}
