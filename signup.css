@@ -1,10 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  background: #e8f0fe;
+  background: #f4f4f4;
   padding: 20px;
 }
 
-.contact-container {
+.signup-container {
   background: #fff;
   padding: 20px;
   max-width: 500px;
@@ -13,14 +13,14 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-container h2 {
+.signup-container h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.contact-container input,
-.contact-container textarea,
-.contact-container button {
+.signup-container input,
+.signup-container select,
+.signup-container button {
   display: block;
   width: 100%;
   margin-bottom: 15px;
