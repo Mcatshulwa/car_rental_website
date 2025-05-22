@@ -9,7 +9,7 @@ body {
 
 .navbar {
   background-color: #282121;
-  color: 282121;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +30,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
